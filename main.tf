@@ -1,0 +1,5 @@
+data "datadog_integration_aws_iam_permissions_resource_collection" "integration_aws_iam_permissions_resource_collection_lookup" {
+  for_each = var.integration_aws_iam_permissions_resource_collection_lookup
+
+}
+
